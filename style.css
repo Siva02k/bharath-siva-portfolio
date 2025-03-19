@@ -42,3 +42,13 @@ nav a{
 
     text-decoration: none;
 }
+.contriner{
+    display: flex;
+    align-items: center;
+}
+.right h1{
+    color: aliceblue;
+}
+.left{
+    width: 30px;
+}
