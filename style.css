@@ -18,13 +18,14 @@ body {
     justify-content: space-between;
     padding: 10px 40px 0 40px;
     background-color: #c9079f;
+    height: 15vh;
+    
 }
 
 .logname {
     font-family: "poppins";
-    font-size: 300%;
-    font-weight: 900;
-
+    font-size:200%;
+    font-weight:900;
 }
 .logname h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,7 +42,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-size: 180%;
+    font-size: 140%;
     justify-content: center;
     list-style-type: none;
 
@@ -108,7 +109,7 @@ nav a {
     font-size: 300%;
     font-family: "poppins";
     text-align: center;
-    filter: drop-shadow(10px 10px 20px #e250c380);
+    /* filter: drop-shadow(10px 10px 20px #e250c380); */
 }
 .right p{
     color: rgba(240, 162, 236, 0.568);
