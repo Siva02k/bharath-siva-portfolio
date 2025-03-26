@@ -18,13 +18,18 @@ body {
     justify-content: space-between;
     padding: 10px 40px 0 40px;
     background-color: #c9079f;
+    height: 15vh;
+    
 }
 
 .logname {
     font-family: "poppins";
-    font-size: 300%;
-    font-weight: 900;
-
+    font-size:200%;
+    font-weight:900;
+}
+.logname h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .navbar {
@@ -37,13 +42,30 @@ ul {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-size: 180%;
+    font-size: 140%;
     justify-content: center;
     list-style-type: none;
 }
+.access{
+    display: flex;
+    align-items: center;    
+}
+.access button{
+    padding: 10px 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 0, 67);
+    box-shadow: 10px 10px 15px rgba(110, 14, 102, 0.233);
+}
 
+<<<<<<< HEAD
 .navbar a {
 
+=======
+nav a {
+>>>>>>> 1d6ec0c4d19bf364a5a0aecc52fdacbd76d727e3
     text-decoration: none;
     font-family: "poppins";
     font-weight: 700;
@@ -59,13 +81,30 @@ ul {
     overflow: hidden;
 }
 
-/* .incontriner1 {
+.incontriner1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 8%;
+}
+.right h1{
+    color: aliceblue;
+    font-size: 2cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    width: 30px;
+    box-shadow: 70px 70px 15px rgb(240, 0, 0);
+
+}
+.left img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(129, 2, 112), -5px -5px 10px rgba(255, 0, 0, 0.5);
     gap: 150%;
 
-} */
+}
 .right h1 {
     padding-top: 20%;
 }
@@ -75,7 +114,7 @@ ul {
     font-size: 300%;
     font-family: "poppins";
     text-align: center;
-    filter: drop-shadow(10px 10px 20px #e250c380);
+    /* filter: drop-shadow(10px 10px 20px #e250c380); */
 }
 .right p{
     color: white;
