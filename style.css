@@ -40,14 +40,14 @@ ul {
     font-size: 180%;
     justify-content: center;
     list-style-type: none;
-
 }
 
-nav a {
+.navbar a {
 
     text-decoration: none;
     font-family: "poppins";
     font-weight: 700;
+    color: aliceblue;
 }
 
 .contriner1 {
@@ -71,19 +71,28 @@ nav a {
 }
 
 .right h1 {
-    color: rgba(238, 114, 232, 0.568);
+    color: white;
     font-size: 300%;
     font-family: "poppins";
     text-align: center;
     filter: drop-shadow(10px 10px 20px #e250c380);
 }
 .right p{
-    color: rgba(240, 162, 236, 0.568);
+    color: white;
     font-size: 150%;
     font-weight: bolder;
     font-family: "IBM+Plex+Mono";
     text-align: left;
     filter: drop-shadow(10px 10px 20px #e250c380);
+}
+.bottom-btn{
+    margin-top: 30px;
+}
+.bottom-btn button{
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight:500;
 }
 .left {
     padding-right: 10%;
