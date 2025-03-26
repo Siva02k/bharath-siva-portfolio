@@ -97,7 +97,6 @@ nav a {
 .left img{
     width: 300px;
     height: 300px;
-    box-shadow: 10px 10px 10px rgb(129, 2, 112), -5px -5px 10px rgba(255, 0, 0, 0.5);
     gap: 150%;
 
 }
