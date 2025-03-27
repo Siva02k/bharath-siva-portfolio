@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 40px 0 40px;
-    background-color:#D76C82;
+    background-color:#ff7300;
     height: 15vh;
     
 }
@@ -51,13 +51,13 @@ ul {
     align-items: center;    
 }
 .access button{
-    padding: 10px 70px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-large;
-    font-weight: 600;
-    background-color: #FAD0C4;
-    border-radius: 5px;
-    border: 2px solid rgb(201, 0, 67);
+    padding: 10px 50px 10px 50px;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight:500;
+    border-radius: 23px;
+    border: 2px solid red;
+    background-color: rgb(35, 19, 56);
     box-shadow: 10px 10px 15px rgba(110, 14, 102, 0.233);
 }
 
@@ -124,7 +124,7 @@ nav a {
     font-size: 15px;
     font-family: "Poppins";
     font-weight:500;
-    border-radius: 3px;
+    border-radius: 23px;
     border: 1px solid red;
     background-color: #D76C82;
 }
