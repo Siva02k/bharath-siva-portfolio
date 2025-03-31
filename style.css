@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fantasy;
+    /* font-family: fantasy; */
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 40px 0 40px;
+    padding: 10px 20px 10px 20px;
     background-color:#ff7300;
     height: 15vh;
     
@@ -25,7 +25,7 @@ body {
 .logname {
     font-family: "poppins";
     font-size:200%;
-    font-weight:900;
+    /* font-weight:900; */
 }
 .logname h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,14 +51,13 @@ ul {
     align-items: center;    
 }
 .access button{
-    padding: 10px 50px 10px 50px;
+    padding: 10px 60px 10px 60px;
     font-size: 15px;
     font-family: "Poppins";
     font-weight:500;
     border-radius: 23px;
-    border: 2px solid red;
-    background-color: rgb(35, 19, 56);
-    box-shadow: 10px 10px 15px rgba(110, 14, 102, 0.233);
+    border: 1px solid red;
+    background-color: #D76C82;
 }
 
 
@@ -74,7 +73,7 @@ nav a {
     /* align-items: center; */
     padding: 30px;
     justify-content: space-around;
-    padding: 50px;
+    /* padding: 50px; */
     overflow: hidden;
 }
 
@@ -129,7 +128,7 @@ nav a {
     background-color: #D76C82;
 }
 .left {
-    padding-right: 10%;
+    /* padding-right: 10%; */
     filter: drop-shadow(10px 10px 20px #e250c380);
 }
 
@@ -139,4 +138,55 @@ nav a {
     border-radius: 10px;
 
     /* box-shadow: 1px 1px -1px -1px rgba(255, 134, 239, 0.548); */
+}
+.contriner2{
+    margin-top: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 3%;
+    gap: 100px;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.head-name1 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Poppins";
+}
+.head-name2 p{
+    color: aliceblue;
+    line-height: 25px;
+}
+.img2{
+    width: 300px;
+    height: 400px;
+     border-radius: 50px;
+}
+.side1{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    box-shadow: 10px 10px 1px pink ;
+}
+.side1 h1{
+    text-align: center;
+}
+.aside1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side2{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px 40px ;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+.box-left h1{
+       font-size:  xx-small;
+       text-align: center;
 }
