@@ -190,3 +190,25 @@ nav a {
        font-size:  xx-small;
        text-align: center;
 }
+.contriner3{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.st{
+    width: 20px;
+    transition: 2s;
+}
+.st img {
+    width: 800px;
+    height: 500px;
+}
